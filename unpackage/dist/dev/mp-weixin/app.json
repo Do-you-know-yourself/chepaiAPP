@@ -1,0 +1,69 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/index/component/TransFer",
+        "pages/index/component/Notice",
+        "pages/index/component/mechanism",
+        "pages/BiddingIndex/index",
+        "pages/BiddingIndex/Details/index",
+        "pages/subscribe/index",
+        "pages/subscribe/Add/index",
+        "pages/release/index",
+        "pages/user/index",
+        "pages/user/Bidding/index",
+        "pages/user/login/index",
+        "pages/user/register/index",
+        "pages/user/rule/index",
+        "pages/user/UserInfo/index",
+        "pages/user/UserInfo/Email",
+        "pages/user/SetUp/index",
+        "pages/user/opinion/index",
+        "pages/user/order/index",
+        "pages/user/News/index"
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "color": "#BFBFBF",
+        "selectedColor": "#ff6700",
+        "blurEffect": "extralight",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "selectedIconPath": "static/TabBarIcon/index.png",
+                "iconPath": "static/TabBarIcon/index_h.png"
+            },
+            {
+                "pagePath": "pages/BiddingIndex/index",
+                "text": "竞价",
+                "selectedIconPath": "static/TabBarIcon/Bidding.png",
+                "iconPath": "static/TabBarIcon/Bidding_h.png"
+            },
+            {
+                "pagePath": "pages/release/index",
+                "text": "卖车",
+                "selectedIconPath": "static/TabBarIcon/release.png",
+                "iconPath": "static/TabBarIcon/release_h.png"
+            },
+            {
+                "pagePath": "pages/subscribe/index",
+                "text": "订阅",
+                "selectedIconPath": "static/TabBarIcon/subscribe.png",
+                "iconPath": "static/TabBarIcon/subscribe_h.png"
+            },
+            {
+                "pagePath": "pages/user/index",
+                "text": "我的",
+                "selectedIconPath": "static/TabBarIcon/My.png",
+                "iconPath": "static/TabBarIcon/My_h.png"
+            }
+        ]
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}

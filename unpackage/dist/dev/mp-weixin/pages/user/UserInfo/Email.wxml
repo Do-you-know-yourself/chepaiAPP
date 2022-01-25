@@ -1,0 +1,1 @@
+<view class="input flex-r data-v-b43adffe"><input class="data-v-b43adffe" style="width: 100%;" type="text" max="18" placeholder="请输入邮箱" value="{{a}}" bindinput="{{b}}"/></view>

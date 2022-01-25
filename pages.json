@@ -1,0 +1,232 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/component/TransFer",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+
+			}
+		},
+		{
+			"path": "pages/index/component/Notice",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+
+			}
+		},
+		{
+			"path": "pages/index/component/mechanism",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+
+			}
+		},
+		{
+
+			"path": "pages/BiddingIndex/index",
+			"style": {
+
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+			}
+		},
+		{
+
+			"path": "pages/BiddingIndex/Details/index",
+			"style": {
+
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"scrollIndicator": "none"
+
+			}
+		},
+
+		{
+			"path": "pages/subscribe/index",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+
+			}
+		},
+		{
+			"path": "pages/subscribe/Add/index",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/release/index",
+			"style": {
+				"enablePullDownRefresh": true,
+
+				"navigationStyle": "custom"
+
+			}
+		},
+
+		{
+			"path": "pages/user/index",
+			"style": {
+				"enablePullDownRefresh": true,
+
+				"navigationStyle": "custom"
+
+			}
+		}, {
+			"path": "pages/user/Bidding/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+
+
+			}
+		},
+		{
+			"path": "pages/user/login/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": ""
+
+			}
+		},
+		{
+			"path": "pages/user/register/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": ""
+
+			}
+		},
+		{
+			"path": "pages/user/rule/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": ""
+
+			}
+		},
+		{
+			"path": "pages/user/UserInfo/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+
+			}
+		},
+		{
+			"path": "pages/user/UserInfo/Email",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": ""
+
+			}
+		},
+		{
+			"path": "pages/user/SetUp/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+
+			}
+		},
+		{
+			"path": "pages/user/opinion/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": ""
+
+			}
+		},
+		{
+			"path": "pages/user/order/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+
+
+			}
+		},
+		{
+			"path": "pages/user/News/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": ""
+
+			}
+		},
+		{
+			"path": "pages/user/agreement/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": ""
+
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"app-plus": {
+		"scrollIndicator": "none"
+	},
+	"tabBar": {
+		"color": "#BFBFBF",
+		"selectedColor": "#ff6700",
+		// #ifdef APP-PLUS
+		"blurEffect": "extralight",
+		// #endif
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"selectedIconPath": "static/TabBarIcon/index.png",
+			"iconPath": "static/TabBarIcon/index_h.png"
+
+		}, {
+			"pagePath": "pages/BiddingIndex/index",
+			"text": "竞价",
+			"selectedIconPath": "static/TabBarIcon/Bidding.png",
+			"iconPath": "static/TabBarIcon/Bidding_h.png"
+
+		}, {
+			"pagePath": "pages/release/index",
+			"text": "卖车",
+			"selectedIconPath": "static/TabBarIcon/release.png",
+			"iconPath": "static/TabBarIcon/release_h.png"
+
+		}, {
+			"pagePath": "pages/subscribe/index",
+			"text": "订阅",
+			"selectedIconPath": "static/TabBarIcon/subscribe.png",
+			"iconPath": "static/TabBarIcon/subscribe_h.png"
+
+		}, {
+			"pagePath": "pages/user/index",
+			"text": "我的",
+			"selectedIconPath": "static/TabBarIcon/My.png",
+			"iconPath": "static/TabBarIcon/My_h.png"
+		}]
+	}
+
+}

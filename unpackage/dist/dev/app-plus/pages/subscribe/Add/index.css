@@ -1,0 +1,314 @@
+/* 水平间距 */
+/* 水平间距 */
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.status_bar[data-v-1450f979] {
+  height: var(--status-bar-height);
+  width: 100%;
+}
+
+.slider-range[data-v-080be10f] {
+  position: relative;
+  padding-top: 1.25rem;
+  transition: 0.5s;
+}
+.slider-range-inner[data-v-080be10f] {
+  position: relative;
+  width: 100%;
+}
+.slider-range.disabled .slider-bar-inner[data-v-080be10f] {
+  opacity: 0.35;
+  transition: 0.5s;
+}
+.slider-range.disabled .slider-handle-block[data-v-080be10f] {
+  cursor: not-allowed;
+}
+.slider-bar[data-v-080be10f] {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+.slider-bar-bg[data-v-080be10f] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10000px;
+  z-index: 10;
+  transition: 0.5s;
+}
+.slider-bar-inner[data-v-080be10f] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10000px;
+  z-index: 11;
+}
+.slider-handle-block[data-v-080be10f] {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  box-shadow: 0 0 3px 2px rgba(227, 229, 241, 0.5);
+  z-index: 12;
+}
+.slider-handle-block.decoration[data-v-080be10f]::before {
+  position: absolute;
+  content: '';
+  width: 0.1875rem;
+  height: 0.75rem;
+  top: 50%;
+  left: 29%;
+  transform: translateY(-50%);
+  background: #eeedf2;
+  border-radius: 0.09375rem;
+  z-index: 13;
+  transition: 0.5s;
+}
+.slider-handle-block.decoration[data-v-080be10f]::after {
+  position: absolute;
+  content: '';
+  width: 0.1875rem;
+  height: 0.75rem;
+  top: 50%;
+  right: 29%;
+  transform: translateY(-50%);
+  background: #eeedf2;
+  border-radius: 0.09375rem;
+  z-index: 13;
+  transition: 0.5s;
+}
+.range-tip[data-v-080be10f] {
+  /*transition: 0.1s;*/
+  position: absolute;
+  top: 0;
+  font-size: 0.75rem;
+  color: #666;
+  transform: translate(-50%, -100%);
+}
+
+/* 水平间距 */
+/* 水平间距 */
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.backNavbar[data-v-adba5504] {
+  padding: 0.5rem 0.5rem;
+  border-bottom: 1px solid #b8b8b855;
+  box-shadow: 1px 1px 7px 0px #b8b8b855;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.backNavbar .left_back[data-v-adba5504] {
+  width: 1.2rem;
+}
+/* 水平间距 */
+/* 水平间距 */
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.scroll[data-v-174b30d6] {
+  height: 85vh;
+  background: #ffffff55;
+}
+.btn[data-v-174b30d6] {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 0.5rem 0rem;
+  background: #fff;
+  box-shadow: 0px -1px 7px 0px #ffffff55;
+}
+.btn uni-button[data-v-174b30d6] {
+  width: 95vw;
+  margin: 0 auto;
+  border-radius: 5rem;
+  background: #ff6700;
+  color: #fff;
+}
+.Model_container[data-v-174b30d6] {
+  padding: 0.5rem;
+}
+.Model_container .vehicle_type[data-v-174b30d6] {
+  margin: 0.5rem 0;
+  background: #fff;
+  padding: 0.5rem 0.2rem;
+}
+.Model_container .vehicle_type .vehicle_container[data-v-174b30d6] {
+  margin-top: 0.5rem;
+  display: flex;
+  padding: 0.5rem;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.Model_container .vehicle_type .vehicle_container .type[data-v-174b30d6] {
+  padding: 0.5rem 0rem;
+  background: #b8b8b855;
+  border-radius: 5rem;
+  display: flex;
+  flex: 0 0 28.33%;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.5rem;
+  align-items: center;
+}
+.Model_container .vehicle_type .vehicle_container .isActive[data-v-174b30d6] {
+  background: #ff6700;
+  color: #fff;
+}
+.brand[data-v-174b30d6] {
+  padding: 0.5rem;
+  background: #fff;
+  display: flex;
+}
+.brand uni-text[data-v-174b30d6]:nth-child(1) {
+  padding: 0.5rem;
+}
+.brand .add_brand[data-v-174b30d6] {
+  padding: 0.5rem;
+  border-radius: 5rem;
+  background: #ff670055;
+  color: #fff;
+}
+.brand .choice[data-v-174b30d6] {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.brand .choice .icon[data-v-174b30d6] {
+  margin: 0 0.5rem;
+}
+.price_info[data-v-174b30d6] {
+  padding: 0.5rem;
+  background: #FFFFFF;
+  margin: 0.5rem 0;
+}
+.price[data-v-174b30d6] {
+  display: flex;
+  align-items: center;
+  font-size: 0.6rem;
+}
+.price .txt[data-v-174b30d6] {
+  margin: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price .txt uni-text[data-v-174b30d6] {
+  width: 100%;
+}
+.price .txt uni-text[data-v-174b30d6]:nth-child(1) {
+  padding: 0 0.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price .txt uni-text[data-v-174b30d6]:nth-child(2) {
+  justify-content: center;
+  padding: 0 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.standard[data-v-174b30d6] {
+  margin: 0.5rem 0;
+  background: #fff;
+  padding: 0.5rem;
+}
+.standard .header[data-v-174b30d6] {
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+}
+.standard .standard_container[data-v-174b30d6] {
+  margin-top: 0.5rem;
+  display: flex;
+  padding: 0.5rem;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.standard .standard_container .standardList[data-v-174b30d6] {
+  padding: 0.5rem 0rem;
+  background: #b8b8b855;
+  border-radius: 5rem;
+  display: flex;
+  flex: 0 0 28.33%;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.5rem;
+  align-items: center;
+}
+.standard .standard_container .isActive[data-v-174b30d6] {
+  background: #ff6700;
+  color: #fff;
+}

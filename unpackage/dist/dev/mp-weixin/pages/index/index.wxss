@@ -1,0 +1,19 @@
+
+.v-enter,.v-leave-to{
+  opacity: 0;
+  transform: translateX(80px);
+}
+/*进入和离开的动画时间段*/
+.v-enter-active,.v-leave-active{
+  opacity: 0;
+  transform: translateX(80px);
+  transition: all 0.3S ease;
+  /*transform: translateX(160px);*/
+}
+.container {
+		font-size: 14px;
+    /*overflow: hidden;*/
+}
+.topMz{
+    padding-top: 1rem;
+}

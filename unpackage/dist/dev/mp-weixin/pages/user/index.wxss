@@ -1,0 +1,181 @@
+/* 水平间距 */
+/* 水平间距 */
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.scroll_my.data-v-137d5072 {
+  overflow-y: auto;
+  background-image: linear-gradient(#EBDAD155, #E2E3E5, #F4F5F7);
+}
+.info_container.data-v-137d5072 {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  background-color: #e493d0;
+  background-image: radial-gradient(closest-side, #eb694e, rgba(235, 105, 78, 0)), radial-gradient(closest-side, #f30ba4, rgba(243, 11, 164, 0)), radial-gradient(closest-side, #feea83, rgba(254, 234, 131, 0)), radial-gradient(closest-side, #aa8ef5, rgba(170, 142, 245, 0)), radial-gradient(closest-side, #f8c093, rgba(248, 192, 147, 0));
+  background-size: 130vmax 130vmax, 80vmax 80vmax, 90vmax 90vmax, 110vmax 110vmax, 90vmax 90vmax;
+  background-position: -80vmax -80vmax, 60vmax -30vmax, 10vmax 10vmax, -30vmax -10vmax, 50vmax 50vmax;
+  background-repeat: no-repeat;
+  animation: 10s movement-137d5072 linear infinite;
+  padding: 0.3rem 0.5rem;
+}
+.info_container .userInfo.data-v-137d5072 {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+}
+.info_container .userInfo .info.data-v-137d5072 {
+  display: flex;
+  flex: 1;
+}
+.info_container .userInfo .info .avatar.data-v-137d5072 {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 5rem;
+  border: 1px solid #2e2e2e;
+  overflow: hidden;
+}
+.info_container .userInfo .info .NickName_member.data-v-137d5072 {
+  margin: 0 0.5rem;
+}
+.info_container .userInfo .info .NickName_member .member.data-v-137d5072 {
+  margin-top: 0.8rem;
+  width: 5rem;
+  padding: 0.1rem 0.1rem;
+  font-size: 0.6rem;
+  border-radius: 3rem;
+  text-align: center;
+  background: #d5b7a5;
+}
+@keyframes movement-137d5072 {
+0%, 100% {
+    background-size: 130vmax 130vmax, 80vmax 80vmax, 90vmax 90vmax, 110vmax 110vmax, 90vmax 90vmax;
+    background-position: -80vmax -80vmax, 60vmax -30vmax, 10vmax 10vmax, -30vmax -10vmax, 50vmax 50vmax;
+}
+25% {
+    background-size: 100vmax 100vmax, 90vmax 90vmax, 100vmax 100vmax, 90vmax 90vmax, 60vmax 60vmax;
+    background-position: -60vmax -90vmax, 50vmax -40vmax, 0vmax -20vmax, -40vmax -20vmax, 40vmax 60vmax;
+}
+50% {
+    background-size: 80vmax 80vmax, 110vmax 110vmax, 80vmax 80vmax, 60vmax 60vmax, 80vmax 80vmax;
+    background-position: -50vmax -70vmax, 40vmax -30vmax, 10vmax 0vmax, 20vmax 10vmax, 30vmax 70vmax;
+}
+75% {
+    background-size: 90vmax 90vmax, 90vmax 90vmax, 100vmax 100vmax, 90vmax 90vmax, 70vmax 70vmax;
+    background-position: -50vmax -40vmax, 50vmax -30vmax, 20vmax 0vmax, -10vmax 10vmax, 40vmax 60vmax;
+}
+}
+/* 卡卷 保障金*/
+.bond_card.data-v-137d5072 {
+  padding: 0 4.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.bond_card .mgt.data-v-137d5072 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bond_card .bond_Num.data-v-137d5072 {
+  margin: 0.3rem 0;
+}
+.bond_card .card_Num.data-v-137d5072 {
+  margin: 0.3rem 0;
+}
+.authentication.data-v-137d5072 {
+  padding: 0.5rem 1rem 0rem 1rem;
+}
+.authentication .authentication_container.data-v-137d5072 {
+  padding: 1rem 1rem 1.2rem 1rem;
+  height: 3rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  font-size: 0.6rem;
+  align-items: center;
+}
+
+/* 我的竞拍 */
+.my_Auction_container.data-v-137d5072 {
+  padding: 0.2rem 0.15rem;
+  box-shadow: 0px -3px 25px 1px rgba(215, 215, 215, 0.89);
+}
+.my_Auction.data-v-137d5072 {
+  padding: 0.6rem 0.5rem;
+  background: #fff;
+  border-radius: 0.5rem;
+}
+.my_Auction .title.data-v-137d5072 {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  color: #3f3838;
+}
+.my_Auction .list_container.data-v-137d5072 {
+  display: flex;
+  justify-content: space-around;
+}
+.my_Auction .list_container .list.data-v-137d5072 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 1rem auto;
+  align-items: center;
+}
+.my_Auction .list_container .list .img_icon.data-v-137d5072 {
+  width: 3.2rem;
+}
+.my_Auction .list_container .list .img_icon img.data-v-137d5072 {
+  width: 2rem;
+}
+.order.data-v-137d5072 {
+  margin: 0.5rem 0;
+}
+.br.data-v-137d5072 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.br .list.data-v-137d5072 {
+  flex: 0 0 17%;
+  margin: 0 auto;
+}
+.botoom.data-v-137d5072 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem 0;
+  color: #6a6a6a35;
+}
+.botoom text.data-v-137d5072 {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  background-image: -webkit-linear-gradient(right, red, #ff5f6085, #f0c41b45);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: oblique;
+}
